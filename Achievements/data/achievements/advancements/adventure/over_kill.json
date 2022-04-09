@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": "赶尽杀绝",
+    "frame": "challenge",
+    "description":"一击造成9颗心的伤害"
+  },
+  "criteria": {
+    "overkill": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+            "dealt": {
+		"min": 18
+		}
+          }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "achievements:husbandry/make_bread",
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": "蛋糕是个谎言",
+    "frame": "goal",
+    "description": {
+      "translate": "使用这些原材料烘培蛋糕：小麦、糖、牛奶和鸡蛋"
+    }
+  },
+  "criteria": {
+    "cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+		"minecraft:cake"
+	    ]
+          }
+        ]
+      }
+    }
+  }
+}
