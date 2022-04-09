@@ -1,0 +1,22 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"mSm",
+		"msm",
+		"m m"
+	],
+	"key":{
+		"m":{
+			"item":"minecraft:phantom_membrane"
+		},
+		"S":{
+			"item":"minecraft:shulker_shell"
+		},
+		"s":{
+			"item":"minecraft:saddle"
+		}
+	},
+	"result":{
+			"item":"minecraft:elytra"
+		}
+}

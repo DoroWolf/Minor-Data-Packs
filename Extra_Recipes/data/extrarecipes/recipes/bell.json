@@ -1,0 +1,22 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"SsS",
+		"SGS",
+		"S S"
+	],
+	"key":{
+		"G":{
+			"item":"minecraft:gold_block"
+		},
+		"S":{
+			"item":"minecraft:stone"
+		},
+		"s":{
+			"item":"minecraft:stick"
+		}
+	},
+	"result":{
+			"item":"minecraft:bell"
+		}
+}
